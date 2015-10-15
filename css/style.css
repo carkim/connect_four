@@ -1,0 +1,48 @@
+body {
+  background-color: yellow;
+}
+
+#board-perimeter {
+  background-color: pink;
+  width: 700px;
+  height: 500px;
+  padding: 10px;
+  margin: auto;
+}
+
+.container {
+  border-radius: 80px;
+  display: inline-block;
+  width: 9%;
+  height: 12%;
+  background-color: white;
+  margin: 1.5% 2.3%;
+}
+
+.filled {
+  background-color: orange; 
+}
+
+.row-one {
+
+}
+
+.row-two {
+
+}
+
+.row-three {
+
+}
+
+.row-four {
+
+}
+
+.row-five {
+
+}
+
+.row-six {
+
+}
