@@ -4,17 +4,20 @@ $('document').ready(function() {
   //add event listeners to all divs
   $('.container').on('click', addColor);
 });
+
 var Board = {
-  currentPlayer: '',
+  currentPlayer: $(this).addClass('blue'),
   winner: '',
-}
 
-var startGame = function() {
+startGame: function() {
   console.log('whyyyy');
-  this.currentPlayer
-}
+  var blue = $(this).addClass('blue')
+  var purple = $(this).addClass('purple')
+  if (this.currentPlayer === $(.blue)) {
+  this.currentPlayer = purple
+  }
 
-var addColor = function() {
+addColor: function() {
   console.log(this);
-  $(this).addClass('filled');
+  $(this).addClass('blue');
 }
