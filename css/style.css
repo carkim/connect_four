@@ -1,52 +1,26 @@
 body {
-  background-color: yellow;
+  background-color: white;
 }
 
 #board-perimeter {
-  background-color: pink;
+  background-color: blue;
   width: 700px;
   height: 500px;
   padding: 10px;
   margin: auto;
+  margin-top: 100px;
+}
+
+.column {
+  float: left;
+  width: 100px;
 }
 
 .container {
   border-radius: 80px;
-  display: inline-block;
-  width: 9%;
-  height: 12%;
+  display: block;
   background-color: white;
-  margin: 1.5% 2.3%;
-}
-
-.blue {
-  background-color: blue;
-}
-
-.purple {
-  background-color: purple;
-}
-
-.row-one {
-
-}
-
-.row-two {
-
-}
-
-.row-three {
-
-}
-
-.row-four {
-
-}
-
-.row-five {
-
-}
-
-.row-six {
-
+  width: 70%;
+  height: 70px;
+  margin: 10px;
 }
